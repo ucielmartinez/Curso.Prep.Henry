@@ -7,7 +7,7 @@ const nuevaString = 'Hola';
 const nuevoNum = 20;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,6 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+   return str;
   
 }
 
@@ -36,11 +37,15 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   
+ return (x + y);
+  
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  
+  return (x - y);
   
 }
 
@@ -48,11 +53,15 @@ function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
+  return (x * y);
+  
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  
+ return (x / y);
   
 }
 
@@ -61,6 +70,10 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return (x == y);
+
+  return false;
+  
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -68,6 +81,10 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return true (str1 == str2);
+
+  
+  return false;
 }
 
 function menosQueNoventa(num) {
@@ -75,6 +92,8 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  return true (num < 90);
+  return false;
 }
 
 function mayorQueCincuenta(num) {
